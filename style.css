@@ -10,7 +10,7 @@
     position: absolute;
     width: 200px;
     height: 250px;
-    top: 20%;
+    top: 30%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
@@ -26,6 +26,9 @@
 }
 
 .banner .slider .item {
+    display: flex;
+    align-items: center;
+    width: 70%;
     position: absolute;
     inset: 0 0 0 0;
     transform: 
@@ -34,8 +37,9 @@
 }
 
 .banner .slider .item img {
+    align-items: center;
     width: 100%;
     object-fit: cover;
-    display: block;
+    display: inline-blockb;
     
 }
